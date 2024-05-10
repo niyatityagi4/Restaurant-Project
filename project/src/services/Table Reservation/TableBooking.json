@@ -1,0 +1,220 @@
+{
+    "bookings" : [
+        {
+            "tableId" : 1 ,
+            "reservationId" : 1,
+            "userName" : "Rishu" ,
+            "contact" : "930xxxxx",
+            "time" : "lunch",
+            "memberCount" : 5,
+            "tableCapacity" : 6,
+            "orders" : [
+                            {"foodId" : "1" , "dishGroup" : "pizza" , "dishName" : "supremePizza" ,"unitPrize" : 140 , "quantity" : 2 },
+                            {"foodId" : "2" , "dishGroup" : "burger" , "dishName": "cheesyBurger", "unitPrize" : 50 , "quantity" : 3 }
+                        ],
+            "bill" : 430
+        },
+        {
+            "tableId" : 2 ,
+            "reservationId" : 2,
+            "time" : "lunch",
+            "tableCapacity" : 8
+        },
+
+        {
+            "tableId" : 3 ,
+            "reservationId" : 3,
+            "userName" : "Parul" ,
+            "contact" : "910xxxxx",
+            "time" : "lunch",
+            "memberCount" : 2,
+            "tableCapacity" : 2,
+            "orders" : [
+                            {"foodId" : "9" , "dishGroup" : "pizza" , "dishName" : "cheesyPizza", "unitPrize" : 199 , "quantity" :  1}
+                        ],
+            "bill" : 199 
+        },
+        {
+            "tableId" : 4 ,
+            "reservationId" : 4,
+            "userName" : "Raghav" ,
+            "contact" : "930xxxxx",
+            "time" : "lunch",
+            "memberCount" : 5,
+            "tableCapacity" : 6,
+            "orders" : [
+                            {"foodId" : "10" , "dishGroup" : "pizza" , "unitPrize" : 140 , "quantity" : 2 },
+                            {"foodId" : "11" , "dishGroup" : "burger" ,"dishName" : "VegBurger", "unitPrize" : 50 , "quantity" : 3 },
+                            {"foodId" : "12" , "dishGroup" : "noodles" ,"dishName": "spicyNoodles" , "unitPrize" : 99 , "quantity" : 1 }
+                        ],
+            "bill" : 529
+        }
+        , 
+        {
+            "tableId" : 5 ,
+            "reservationId" : 5,
+            "time" : "lunch",
+            "tableCapacity" : 2
+        },
+        {
+            "tableId" : 6 ,
+            "reservationId" : 6,
+            "time" : "lunch",
+            "tableCapacity" : 8
+        },
+        {
+            "tableId" : 7 ,
+            "reservationId" : 7,
+            "userName" : "Rohit" ,
+            "contact" : "930xxxxx",
+            "time" : "lunch",
+            "memberCount" : 2,
+            "tableCapacity" : 2,
+            "orders" : [
+                            {"foodId" : "9" , "dishGroup" : "pizza" , "dishName" : "cheesyPizza", "unitPrize" : 199 , "quantity" :  1}
+                        ],
+            "bill" : 199 
+        },
+        {
+            "tableId" : 8 ,
+            "reservationId" : 8,
+            "userName" : "Shaan" ,
+            "contact" : "930xxxxx",
+            "time" : "lunch",
+            "memberCount" : 5,
+            "tableCapacity" : 6,
+            "orders" : [
+                            {"foodId" : "10" , "dishGroup" : "pizza" , "unitPrize" : 140 , "quantity" : 2 },
+                            {"foodId" : "11" , "dishGroup" : "burger" ,"dishName" : "VegBurger", "unitPrize" : 50 , "quantity" : 3 },
+                            {"foodId" : "12" , "dishGroup" : "noodles" ,"dishName": "spicyNoodles" , "unitPrize" : 99 , "quantity" : 1 }
+                        ],
+            "bill" : 529
+        },
+        {
+            "tableId" : 9 ,
+            "reservationId" : 9,
+            "userName" : "Rajesh" ,
+            "contact" : "930xxxxx",
+            "time" : "lunch",
+            "memberCount" : 7,
+            "tableCapacity" : 8,
+            "orders" : [
+                            {"foodId" : "3" , "dishGroup" : "idli" ,"dishName": "idli" , "unitPrize" : 70 , "quantity" : 2 },
+                            {"foodId" : "4" , "dishGroup" : "sandwitch" , "dishName" : "vegSandwitch" , "unitPrize" : 50 , "quantity" : 3 }
+                        ],
+            "bill" : 290
+        },
+        {
+            "tableId" : 10 ,
+            "reservationId" : 10,
+            "userName" : "Rakhi" ,
+            "contact" : "930xxxxx",
+            "time" : "lunch",
+            "memberCount" : 2,
+            "tableCapacity" : 2,
+            "orders" : [
+                            {"foodId" : "9" , "dishGroup" : "pizza" , "dishName" : "cheesyPizza", "unitPrize" : 199 , "quantity" :  1}
+                        ],
+            "bill" : 199 
+        },
+
+
+
+        {
+            "tableId" : 1 ,
+            "reservationId" : 1,
+            "time" : "dinner",
+            "tableCapacity" : 4
+        },
+
+
+        {
+            "tableId" : 2 ,
+            "reservationId" : 2,
+            "userName" : "Rashu" ,
+            "contact" : "930xxxxx",
+            "time" : "dinner",
+            "memberCount" : 7,
+            "tableCapacity" : 8,
+            "orders" : [
+                            {"foodId" : "3" , "dishGroup" : "idli" ,"dishName": "idli" , "unitPrize" : 70 , "quantity" : 2 },
+                            {"foodId" : "4" , "dishGroup" : "sandwitch" , "dishName" : "vegSandwitch" , "unitPrize" : 50 , "quantity" : 3 }
+                        ],
+            "bill" : 290
+        },
+
+        {
+            "tableId" : 3 ,
+            "reservationId" : 3,
+            "time" : "dinner",
+            "tableCapacity" : 4
+        },
+        {
+            "tableId" : 4 ,
+            "reservationId" : 4,
+            "time" : "dinner",
+            "tableCapacity" : 8
+        },
+
+        {
+            "tableId" : 5 ,
+            "reservationId" : 5,
+            "userName" : "Karishma" ,
+            "contact" : "930xxxxx",
+            "time" : "dinner",
+            "memberCount" : 5,
+            "tableCapacity" : 6,
+            "orders" : [
+                            {"foodId" : "1" , "dishGroup" : "pizza" , "dishName" : "supremePizza" ,"unitPrize" : 140 , "quantity" : 2 },
+                            {"foodId" : "2" , "dishGroup" : "burger" , "dishName": "cheesyBurger", "unitPrize" : 50 , "quantity" : 3 }
+                        ],
+            "bill" : 430
+        },
+        {
+            "tableId" : 6 ,
+            "reservationId" : 6,
+            "userName" : "Surbhi" ,
+            "contact" : "930xxxxx",
+            "time" : "dinner",
+            "memberCount" : 7,
+            "tableCapacity" : 8,
+            "orders" : [
+                            {"foodId" : "3" , "dishGroup" : "idli" ,"dishName": "idli" , "unitPrize" : 70 , "quantity" : 2 },
+                            {"foodId" : "4" , "dishGroup" : "sandwitch" , "dishName" : "vegSandwitch" , "unitPrize" : 50 , "quantity" : 3 }
+                        ],
+            "bill" : 290
+        },
+
+        {
+            "tableId" : 7 ,
+            "reservationId" : 7,
+            "time" : "dinner",
+            "tableCapacity" : 8
+        },
+        {
+            "tableId" : 8 ,
+            "reservationId" : 8,
+            "userName" : "Saraswati" ,
+            "contact" : "930xxxxx",
+            "time" : "dinner",
+            "memberCount" : 2,
+            "tableCapacity" : 2,
+            "orders" : [
+                            {"foodId" : "9" , "dishGroup" : "pizza" , "dishName" : "cheesyPizza", "unitPrize" : 199 , "quantity" :  1}
+                        ],
+            "bill" : 199 
+        },
+        {
+            "tableId" : 9 ,
+            "reservationId" : 9,
+            "time" : "dinner",
+            "tableCapacity" : 8
+        },
+        {
+            "tableId" : 10 ,
+            "reservationId" : 10,
+            "time" : "dinner",
+            "tableCapacity" : 8
+        }
+    ]
+}

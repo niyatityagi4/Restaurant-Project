@@ -1,0 +1,229 @@
+{
+    "menu" : [
+        {
+            "foodId" : 1,
+            "dishName" : "supremePizza",
+            "dishGroup" : "pizza",
+            "mealType" : "lunch",
+            "isGlutenFree" : false,
+            "isVegan" : false,
+            "isVeg"  : true,
+            "url" : "https://images.pexels.com/photos/19081129/pexels-photo-19081129/free-photo-of-pizza-and-leaf.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 99
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 199
+                },
+                {
+                    "option" : "large",
+                    "amount" : 249
+                }
+            ],
+            "cuisine" : "italian"
+        },
+        {
+            "foodId" : 2,
+            "dishName" : "masalaDosa",
+            "dishGroup" : "dosa",
+            "mealType" : "lunch",
+            "isGlutenFree" : false,
+            "isVegan" : false,
+            "isVeg"  : true,
+            "url" : "https://media.istockphoto.com/id/1267511553/photo/cheese-plain-dosa.jpg?b=1&s=612x612&w=0&k=20&c=CtJu0u7Asp63PiZNcS7Uj_Xo3L0F9oP4b8y9QnmwWP0=",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 119
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 199
+                },
+                {
+                    "option" : "large",
+                    "amount" : 249
+                }
+            ],
+            "cuisine" : "southIndian"
+        },
+        {
+            "foodId" : 3,
+            "dishGroup" : "dosa",
+            "dishName" : "plainDosa",
+            "mealType" : "lunch",
+            "isGlutenFree" : false,
+            "isVegan" : false,
+            "isVeg"  : true,
+            "url" : "https://media.istockphoto.com/id/1318600400/photo/plain-dosa-dish.jpg?b=1&s=612x612&w=0&k=20&c=V249MsK67vdz3ywJctLnEN4614JQ01Yvenjxd74exIM=",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 99
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 199
+                },
+                {
+                    "option" : "large",
+                    "amount" : 249
+                }
+            ],
+            "cuisine" : "southIndian"
+        },
+        {
+            "foodId" : 4,
+            "dishGroup" : "pizza",
+            "dishName" : "chessyPizza",
+            "mealType" : "lunch",
+            "isGlutenFree" : false,
+            "isVegan" : false,
+            "isVeg"  : true,
+            "url" : "https://images.pexels.com/photos/12261065/pexels-photo-12261065.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 129
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 199
+                },
+                {
+                    "option" : "large",
+                    "amount" : 299
+                }
+            ],
+            "cuisine" : "italian"
+        },
+        {
+            "foodId" : 5,
+            "dishGroup" : "pizza",
+            "dishName" : "meatPizza",
+            "mealType" : "lunch",
+            "isGlutenFree" : false,
+            "isVegan" : true,
+            "isVeg"  : false,
+            "url" : "https://images.pexels.com/photos/14000421/pexels-photo-14000421.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 99
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 199
+                },
+                {
+                    "option" : "large",
+                    "amount" : 249
+                }
+            ],
+            "cuisine" : "italian"
+        },
+        {
+            "foodId" : 6,
+            "dishGroup" : "sandwitch",
+            "dishName" : "vegSandwitch",
+            "mealType" : "breakfast",
+            "isGlutenFree" : false,
+            "isVegan" : false,
+            "isVeg"  : true,
+            "url":"https://media.istockphoto.com/id/1300443216/photo/vegetable-paneer-sandwich-using-cottage-cheese-with-tomato-onion-and-lettuce-with-chutney.jpg?b=1&s=612x612&w=0&k=20&c=pq0JCZzatFujI3KASGvN1ux8-4zJL1_Dm2Ith7iYkrc=",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 89
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 129
+                },
+                {
+                    "option" : "large",
+                    "amount" : 149
+                }
+            ],
+            "cuisine" : "italian"
+        },
+        {
+            "foodId" : 7,
+            "dishGroup" : "burger",
+            "dishName" : "vegBurger",
+            "mealType" : "lunch",
+            "isGlutenFree" : false,
+            "isVegan" : false,
+            "isVeg"  : true,
+            "url":"https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 79
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 129
+                },
+                {
+                    "option" : "large",
+                    "amount" : 149
+                }
+            ],
+            "cuisine" : "american"
+        },
+        {
+            "foodId" : 8,
+            "dishGroup" : "soup",
+            "dishName" : "muttonSoup",
+            "mealType" : "dinner",
+            "isGlutenFree" : false,
+            "isVegan" : false,
+            "isVeg"  : true,
+            "url" : "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 99
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 199
+                },
+                {
+                    "option" : "large",
+                    "amount" : 249
+                }
+            ],
+            "cuisine" : "japenese"
+        },
+        {
+            "foodId" : 9,
+            "dishGroup" : "salad",
+            "dishName" : "greenPapayaSalad",
+            "mealType" : "dinner",
+            "isGlutenFree" : false,
+            "isVegan" : false,
+            "isVeg"  : true,
+            "url" :"https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price" : [
+                {
+                    "option" : "small",
+                    "amount" : 59
+                },
+                {
+                    "option" : "medium",
+                    "amount" : 129
+                },
+                {
+                    "option" : "large",
+                    "amount" : 159
+                }
+            ],
+            "cuisine" : "thai"
+        }
+    ]
+}

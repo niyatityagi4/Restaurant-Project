@@ -1,0 +1,15 @@
+[ {
+    "userName": "Niyati",
+    "password": "niyati",
+    "permissions": [
+     "editCart"
+    ]
+},
+    {
+        "userName": "Rashu",
+        "password": "rashu",
+        "permissions": [
+            "editMenu"
+        ]
+    }
+]
