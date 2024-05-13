@@ -1,9 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
 import { Layout, Menu } from "antd";
+import PermissionButton from "../../structure/PermissionButton";
 
 const { Sider } = Layout;
+
 export default function AdminPage() {
   return (
+    <PermissionButton allowedPermissions={['admin']}>
     <Layout>
       <Sider trigger={null}  >
         <Menu
@@ -33,5 +36,6 @@ export default function AdminPage() {
         <Outlet />
       </Layout>
     </Layout>
+    </PermissionButton>
   );
 }

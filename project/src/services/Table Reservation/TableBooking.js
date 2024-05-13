@@ -1,4 +1,4 @@
-import crud from '../../utils/CrudService';
+import crud from '../../utils/crud';
 import data from './TableBooking.json';
 
 

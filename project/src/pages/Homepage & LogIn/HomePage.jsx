@@ -46,7 +46,7 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <Navbar />
+      {/* <Navbar /> */}
       <Content>
         <div
           style={{
@@ -95,7 +95,7 @@ const HomePage = () => {
           </div>
         </div>
       </Content>
-      <FooterFile />
+      {/* <FooterFile /> */}
     </Layout>
   );
 };

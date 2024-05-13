@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Row, Col, Typography, Button, theme, notification } from 'antd';
 import LocalStorageService from '../../../services/localStorageService';
+import { TranslateFunction } from '../../../utils/internationalization';
 
 const { Paragraph } = Typography;
 const { Meta } = Card;
@@ -9,6 +10,7 @@ const { Meta } = Card;
 
 
 const DishPage = ({ dish, searchObj}) => {
+  const labels = TranslateFunction("labels");
   const ls = new LocalStorageService();
   // console.log(dish)
   const addCardToLS = () => {
@@ -119,7 +121,7 @@ const DishPage = ({ dish, searchObj}) => {
   style={{ alignSelf: 'flex-end' }}
   onClick={addCardToLS}
 >
-  ADD +
+{labels("ADD")}+
 </Button>
 
   </div>

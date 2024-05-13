@@ -1,8 +1,9 @@
 import { Flex,Col, Typography } from "antd";
 import { useState, useEffect } from "react";
-import { getData } from "../../../services/Menu/Menu";
+
 import Filters from "./FilterMenuPage";
 import MenuTable from "./MenuTable";
+import { getData } from "../../../services/Menu/Menu";
 
 
 export default function AdminMenuPage() {

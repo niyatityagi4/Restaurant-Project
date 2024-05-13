@@ -106,9 +106,9 @@ const Navbar = () => {
         defaultSelectedKeys={["1"]}
         style={{
           backgroundColor:"black",
-          width: "50%",
-          marginLeft:"60%",
-          justifyContent:"space-evenly"
+          width: "150%",
+          marginLeft:"55%",
+          justifyContent:"end"
         }}
       >
         {items.slice(0, 2).map((item) => (
@@ -129,7 +129,7 @@ const Navbar = () => {
         defaultSelectedKeys={["1"]}
         style={{
           backgroundColor:"black",
-          width: "50%",
+          width: "270%",
         }}
       >
         {items.slice(2).map((item) => (

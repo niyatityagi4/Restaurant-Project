@@ -2,6 +2,9 @@ import { createContext, useContext, useState } from "react"
 import users from "../services/User/user.json"
 import { BrowserRouter } from "react-router-dom";
 import { RenderRoutes } from "./RenderRoutes";
+import Navbar from "../pages/Homepage & LogIn/Navbar";
+import FooterFile from "../pages/Homepage & LogIn/FooterFile";
+import { Layout } from "antd";
 
 
 console.log("Users List", users)
@@ -44,10 +47,11 @@ export const AuthWrapper = () => {
 
         <AuthContext.Provider value={{ user, login, logout }}>
             <BrowserRouter>
-               
-                {/* <MainHeader /> */}
+              <Layout>
+              <Navbar/>
                 <RenderRoutes />
-                {/* <FooterFile /> */}
+            <FooterFile/>
+            </Layout> 
             </BrowserRouter>
         </AuthContext.Provider>
 

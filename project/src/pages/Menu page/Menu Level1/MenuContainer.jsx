@@ -12,7 +12,7 @@ const MenuContainer = ({ next, setSelectedDish }) => {
     return (
         <>
         <Layout>
-        <Navbar />
+        {/* <Navbar /> */}
              
             
                 <MenuPage 

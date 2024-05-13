@@ -1,10 +1,8 @@
-
-
 import { useEffect, useState } from "react";
 import backg from '../../../Images/background.png';
 import backg2 from '../../../Images/background2.png'
 import { Button, Col, Layout, Row } from "antd";
-import FooterFile from "../../Homepage & LogIn/FooterFile";
+// import FooterFile from "../../Homepage & LogIn/FooterFile";
 import { Content } from "antd/es/layout/layout";
 import Sider from "antd/es/layout/Sider";
 import DishOftheDay from "../Menu Level1/DishOftheDay";
@@ -75,7 +73,7 @@ const DishList = ({ selectedDish, searchObj, listUpdatedCount, back }) => {
                         <DishOftheDay />
                     </Sider>
                 </Layout>
-                <FooterFile />
+                {/* <FooterFile /> */}
             </Layout>
         </>
     );

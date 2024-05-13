@@ -1,9 +1,9 @@
-import crud from "../../utils/CrudService";
-
+import crud from "../../utils/crudMenu";
+import data from "./Menu.json"
 
 export const getData = () =>{
     return new Promise(resolve =>{
-        let list = crud.get()
+        let list = crud.get(data)
         resolve(list);
     })
 }

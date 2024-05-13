@@ -103,7 +103,7 @@ const MenuPage = ({ next, setSelectedDish, searchObj, setSearchObj }) => {
             <DishOftheDay />
           </Sider>
         </Layout>
-        <FooterFile />
+        {/* <FooterFile /> */}
         </Layout>
     </>
   );

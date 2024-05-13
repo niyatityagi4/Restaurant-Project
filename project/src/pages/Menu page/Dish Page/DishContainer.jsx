@@ -18,7 +18,7 @@ export const DishContainer=({selectedDish, back})=>{
            
             <div>
                 <Layout>
-                    <Navbar/>
+                    {/* <Navbar/> */}
                 </Layout>
                 
                 <Filters searchObj={searchObj} setSearchObj={setSearchObj} />

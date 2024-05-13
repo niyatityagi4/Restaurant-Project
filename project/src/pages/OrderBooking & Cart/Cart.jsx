@@ -3,8 +3,11 @@ import React, { useState } from "react";
 import { Button, Col, List, Modal, Row, Radio } from "antd";
 import LocalStorageService from "../../services/localStorageService";
 import { CreditCardOutlined, PayCircleOutlined, GoogleCircleFilled, DollarCircleOutlined } from '@ant-design/icons';
+import { TranslateFunction } from "../../utils/internationalization";
 const Cart = ({ visible, handleCancel }) => {
+  const labels = TranslateFunction("labels");
   const ls = new LocalStorageService();
+
   const [, updateState] = useState();
   const forceUpdate = React.useCallback(() => updateState({}), []);
 
@@ -83,14 +86,14 @@ const Cart = ({ visible, handleCancel }) => {
         width={900}
         footer={[
           <Button key="clearAll" onClick={clearAllAndCancel}>
-            Clear All
+            {labels("Clear All")}
           </Button>,
           <Button key="checkout" type="primary" onClick={handleCheckout}>
-            Checkout
+          {labels("Checkout")}
           </Button>
         ]}
       >
-        <h2 style={{ textAlign: "center", fontWeight: "normal" }}>Choosen Ones</h2>
+        <h2 style={{ textAlign: "center", fontWeight: "normal" }}>{labels("Chosen Ones")}</h2>
         <List
           size="large"
           bordered
@@ -138,14 +141,14 @@ const Cart = ({ visible, handleCancel }) => {
       </Modal>
   
       <Modal
-        title="ORDER DETAILS"
+        title={labels("ORDER DETAILS")}
         visible={checkoutVisible}
         onCancel={() => setCheckoutVisible(false)}
         okText="Proceed" 
         onOk={handleConfirmCheckout}
         width={5000}
       >
-        <p style={{fontWeight:"bold"}}>Order Summary:</p>
+        <p style={{fontWeight:"bold"}}>{labels("Order Summary")}:</p>
         <List
   dataSource={ls.get()}
   renderItem={(item) => (

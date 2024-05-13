@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-
-
 import { Table ,Card ,Row , Flex ,Typography, Col} from 'antd';
 import { getData } from "../../../services/Orders/Orders";
 
