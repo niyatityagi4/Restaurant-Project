@@ -34,24 +34,6 @@ export const SignIn = () => {
 
      return (
 
-
-          //  <div className="inputs">
-          //       <div className="input">
-          //            <Text > UserName:</Text>
-          //            <input value={formData.userName} onChange={(e) => setFormData({ userName: e.target.value })} type="text" />
-          //       </div>
-          //       <div className="input">
-          //       <Text > Password:</Text>
-          //            <input value={formData.password} onChange={(e) => setFormData({ password: e.target.value })} type="password" />
-          //       </div>
-
-          //       <div className="button">
-          //            <Button onClick={doLogin}>Login</Button>
-          //       </div>
-          //       {errorMessage &&
-          //            <div className="error">{errorMessage}</div>
-          //       }
-          //  </div>
           <div style={{ backgroundColor: "lightblue", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
                <Card hoverable style={{ width: "50%", height: "50%" }}>
                     <div style={{ position: "absolute", transform: "translateX(-50%)", display: "flex", marginLeft: "24%", marginTop: "30%" }}>
