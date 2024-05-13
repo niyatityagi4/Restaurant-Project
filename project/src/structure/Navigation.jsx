@@ -12,16 +12,18 @@ import AdminSeatingsPage from "../pages/admin/admin-seating-page/AdminSeatingsPa
 
 export const navList = [
 
-    { path:     "/admin",    name: "Admin",  element: <AdminPage/>,    isMenu: true,    isPrivate: true, permissions:["admin"]},
+    { path:     "/admin",    name: "Admin",  element: <AdminPage/>,    isMenu: true,    isPrivate: true, permissions:["admin"], children: [
+        {path: "", name: "AdminMenu", index: "index" , element: <AdminMenuPage/>, isMenu:false, isPrivate: false },
+        {path: "orders", name: "Orders", element: <AdminOrderPage/>, isMenu:false, isPrivate: false},
+        {path: "seatings", name: "Seatings", element: <AdminSeatingsPage/>, isMenu:false, isPrivate: false},
+    ]},
     { path:     "/",         name: "Home",    element: <HomePage/>,       isMenu: true,     isPrivate: false  },
     { path:     "/signIn",    name: "Sign In",  element: <SignIn/>,      isMenu: false,    isPrivate: false  },
     // { path:     "/",    name: "Offers",  element: <Offers/>,      isMenu: true,    isPrivate: false  },
     // { path:     "/cart",    name: "Cart",  element: <Cart/>,      isMenu: true,    isPrivate: true  } ,
     { path:     "/menu",    name: "Menu",  element: <MenuWrapper/>,    isMenu: false,    isPrivate: false  },
-    {path: "/tableReservation", name: "Table Reservation", element: <TableReservation/>, isMenu:false, isPrivate: false},
-    {path: "/adminMenu", name: "Admin Menu", element: <AdminMenuPage/>, isMenu:false, isPrivate: false},
-    {path: "/orders", name: "Orders", element: <AdminOrderPage/>, isMenu:false, isPrivate: false},
-    {path: "/seatings", name: "Seatings", element: <AdminSeatingsPage/>, isMenu:false, isPrivate: false},
+    // {path: "/tableReservation", name: "Table Reservation", element: <TableReservation/>, isMenu:false, isPrivate: false},
+    
     {path: "/tableReservation", name: "Table Reservation", element: <TableReservation/>, isMenu:false, isPrivate: false},
 
 ]

@@ -2,6 +2,7 @@ import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { SignIn } from "../pages/Homepage & LogIn/SignIn";
 import { AuthData } from "./AuthWrapper";
 import { navList } from "./Navigation";
+import AdminMenuPage from "../pages/admin/admin-menu-page/AdminMenuPage";
 
 
 export const isAuthorisedRoute = (user, r, isMenu) => {
@@ -36,7 +37,20 @@ export const RenderRoutes = () => {
           <Routes>
                {navList.map((r, i) => {
                     if(isAuthorisedRoute(user, r))
-                         return <Route key={i} path={r.path} element={r.element} />
+                         if(r.children){
+                              console.log("goes")
+                              return <Route key={i} path={r.path} element={r.element}>
+                                 {  r.children.map((menu) => { 
+                                   if(menu.index) {                                       
+                                        return <Route key={i} path={menu.path} index element={menu.element}/> 
+                                   }                                
+                                        else return <Route key={i} path={menu.path} element={menu.element}/>
+                                   })}
+                                   
+                              </Route>
+                               
+                         }
+                         else return <Route key={i} path={r.path} element={r.element} />
                })}
 
 

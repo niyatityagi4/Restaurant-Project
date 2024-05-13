@@ -40,7 +40,7 @@ const Filters = ({ selectedObj, setSelectedObj ,updatedCount ,data , setData}) =
           marginTop : '2%',
           marginLeft: "30px",
           fontWeight: "bold",
-          position : "fixed",
+          position : "absolute",
           backgroundColor : '#C0C0C0',
           height : "70vh",
           padding : '1%'

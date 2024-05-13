@@ -22,7 +22,8 @@ export default function AdminMenuPage() {
   }, []);
 
   return (
-    <Col >
+    <>
+   {data &&  <Col >
       <Typography.Title style={{ textAlign: "center" , padding: '2% 0' ,textShadow: '2px 2px 4px blue'}}>
         Menu Table
       </Typography.Title>
@@ -42,6 +43,7 @@ export default function AdminMenuPage() {
           setData = {setData}
         />
       </Col>
-    </Col>
+    </Col>}
+    </>
   );
 }

@@ -26,7 +26,7 @@ console.log("user",data)
 
     return(
       <Layout>
-        <Navbar/>
+        {/* <Navbar/> */}
        
        <Col style={{height : '80vh' , backgroundColor : 'white'}}>
        <Typography.Title style={{textAlign : 'center'}}>Table Reservation</Typography.Title>
@@ -66,7 +66,7 @@ console.log("user",data)
         </Flex>
        </Col>
     
-       <FooterFile/>
+       {/* <FooterFile/> */}
        </Layout>
     )
 

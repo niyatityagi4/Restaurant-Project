@@ -5,6 +5,7 @@ export const getData = () =>{
     return new Promise(resolve =>{
         let list = crud.get(data)
         resolve(list);
+        
     })
 }
 
