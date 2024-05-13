@@ -107,14 +107,14 @@ const Navbar = () => {
         style={{
           backgroundColor:"black",
           width: "150%",
-          marginLeft:"55%",
+          marginLeft:"0%",
           justifyContent:"end"
         }}
       >
-        {items.slice(0, 2).map((item) => (
+        {items.map((item) => (
           <Menu.Item
             key={item.key}
-            style={{ color: "white" }}
+            style={{ color: "white"}}
             onClick={item.onClick}
           >
             <Link to={item.to}>
@@ -124,7 +124,7 @@ const Navbar = () => {
         ))}
       </Menu>
   
-      <Menu
+      {/* <Menu
         mode="horizontal"
         defaultSelectedKeys={["1"]}
         style={{
@@ -149,7 +149,7 @@ const Navbar = () => {
             )}
           </Menu.Item>
         ))}
-      </Menu>
+      </Menu> */}
   
       <Offers
         visible={offersModalVisible}
